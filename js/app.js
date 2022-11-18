@@ -4,6 +4,6 @@ let userFavColor = prompt("Scrivi quale è il tuo colore preferito");
 
 const userPassw = userName + userLastName + userFavColor;
 
-document.getElementById("userPassword").innerHTML = userPassw;
+document.getElementById("userPassword").innerHTML = userPassw + 22;
 
 console.log(userPassw);
